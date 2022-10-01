@@ -1,24 +1,58 @@
-# README
 
-This README would normally document whatever steps are necessary to get the
-application up and running.
+![](https://img.shields.io/badge/Microverse-blueviolet)
+> # "Hello world" app
+Set up a "Hello world" project as one app with Webpack
 
-Things you may want to cover:
+## Built With
 
-* Ruby version
+-Ruby on Rails and React
 
-* System dependencies
+## Getting Started
 
-* Configuration
+To get a local copy up and running follow these simple example steps.
 
-* Database creation
+### Prerequisites
 
-* Database initialization
+You need to have a git installed
+You need to have a basic knowledge about ruby on rails and React
 
-* How to run the test suite
+### Setup the progect
 
-* Services (job queues, cache servers, search engines, etc.)
+#### clone this project (using git clone https://github.com/bizip/my_new_rails_app.git) to your local computer and use telminal to navigate into the parent directory of this project.
 
-* Deployment instructions
+## OR
+choose this repository as your templete
 
-* ...
+
+### Usage
+
+run: Rails s
+
+## Authors
+
+👤 **Author1**
+
+- GitHub: [@githubhandle](https://github.com/bizip)
+- Twitter: [@twitterhandle](https://twitter.com/BizimunguPasca9)
+- LinkedIn: [LinkedIn](www.linkedin.com/in/bizimungu)
+
+## 🤝 Contributing
+
+Contributions, issues, and feature requests are welcome!
+
+Feel free to check the [issues page](../../issues/).
+
+## Show your support
+
+Give a ⭐️ if you like this project!
+
+## Acknowledgments
+
+- Hat tip to anyone whose code was used
+- Inspiration
+- etc
+
+## 📝 License
+
+This project is [MIT](./MIT.md) licensed.
+
