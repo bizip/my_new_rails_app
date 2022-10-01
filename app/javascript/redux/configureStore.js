@@ -1,8 +1,10 @@
 import { configureStore } from '@reduxjs/toolkit';
-import MessageList from './messageList';
+import messageReducer from './messageReducer'
 
-export default configureStore({
+const store = configureStore({
   reducer: {
-    MessageList,
-  },
+    message: messageReducer
+  }
 });
+
+export default store;

@@ -1,17 +1,19 @@
 import React from 'react';
-import {
-    BrowserRouter as Router,
-    Routes,
-    Route,
-} from 'react-router-dom';
-import MessageList from './MessageList';
+import { BrowserRouter, Route, Routes } from 'react-router-dom';
+import { Provider } from 'react-redux';
+import MessageLists from "./MessageLists"
+import store from '../redux/configureStore';
 
-const App = () => (
-    <Router>
+const App = () => {
+  return (
+    <Provider store={store}>
+      <BrowserRouter>
         <Routes>
-            <Route path="/" element={<MessageList />} />
+          <Route exact path='/' element={<MessageLists />} />
         </Routes>
-    </Router>
-);
+      </BrowserRouter>
+    </Provider>
+  );
+};
 
 export default App;
